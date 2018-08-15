@@ -1,0 +1,9 @@
+*{
+	margin: 0 auto;
+}
+
+.main p{
+	text-align : center;
+	font-size : 30px;
+	color : #20DBCC;
+}
