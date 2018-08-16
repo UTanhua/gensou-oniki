@@ -17,18 +17,20 @@
 
 <body>
     <div class="main">
-        <table class="songlist">
-            <tr>
-                <th class="songName">曲名</th>
-                <th class="classification">分类</th>
-                <th class="difficultyBasic">BASIC</th>
-                <th class="difficultyNormal">NORMAL</th>
-                <th class="difficultyExpert">EXPERT</th>
-                <th class="difficultyMaster">MASTER</th>
-                <th class="difficultyWE">WORLD's END</th>
-                <th class="uploader">贡献者</th>
-                <th class="remark">备注</th>
-            </tr>
+        <table class="songlist" cellspacing="0">
+            <tbody>
+                <tr>
+                    <th class="songName">曲名</th>
+                    <th class="classification">分类</th>
+                    <th class="difficultyBasic">BASIC</th>
+                    <th class="difficultyNormal">NORMAL</th>
+                    <th class="difficultyExpert">EXPERT</th>
+                    <th class="difficultyMaster">MASTER</th>
+                    <th class="difficultyWE">WORLD's END</th>
+                    <th class="uploader">贡献者</th>
+                    <th class="remark">备注</th>
+                </tr>
+            </tbody>
         </table>
     </div>
 

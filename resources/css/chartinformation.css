@@ -4,41 +4,47 @@
 
 .main .songlist th{
     height: 21px;
+    border: black 1px solid;
 }
 
 .main .songlist .songName{
-    width: 475px;
+    width: 450px;
 }
 .main .songlist .classification{
-    width: 205px;
+    width: 200px;
 }
 .main .songlist .difficultyBasic{
-    width: 104px;
-    background: #00CC00;
+    width: 55px;
+    background: rgb(26,232,24);
     color: white;
+    border: none;
 }
 .main .songlist .difficultyNormal{
-    width: 104px;
-    background: #bf5329;
+    width: 55px;
+    background: rgb(233,108,30);
     color: white;
+    border: none;
 }
 .main .songlist .difficultyExpert{
-    width: 104px;
-    background: #990073;
+    width: 55px;
+    background: rgb(246,10,141);
     color: white;
+    border: none;
 }
 .main .songlist .difficultyMaster{
-    width: 104px;
-    background: #5a0099;
+    width: 55px;
+    background: rgb(145,13,244);
     color: white;
+    border: none;
 }
 .main .songlist .difficultyWE{
-    width: 325px;
+    width: 165px;
     background: black;
     color: white;
+    border: none;
 }
 .main .songlist .upload{
-    width: 157px;
+    width: 150px;
 }
 .main .songlist .remark{
     width: 528px;
