@@ -2,8 +2,44 @@
     margin: 0 auto;
 }
 
-.main p{
-    text-align: center;
-    font-size: 20px;
-    color: #125800;
+.main .songlist th{
+    height: 21px;
+}
+
+.main .songlist .songName{
+    width: 475px;
+}
+.main .songlist .classification{
+    width: 205px;
+}
+.main .songlist .difficultyBasic{
+    width: 104px;
+    background: #00CC00;
+    color: white;
+}
+.main .songlist .difficultyNormal{
+    width: 104px;
+    background: #bf5329;
+    color: white;
+}
+.main .songlist .difficultyExpert{
+    width: 104px;
+    background: #990073;
+    color: white;
+}
+.main .songlist .difficultyMaster{
+    width: 104px;
+    background: #5a0099;
+    color: white;
+}
+.main .songlist .difficultyWE{
+    width: 325px;
+    background: black;
+    color: white;
+}
+.main .songlist .upload{
+    width: 157px;
+}
+.main .songlist .remark{
+    width: 528px;
 }

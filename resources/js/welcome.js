@@ -18,7 +18,7 @@ var btn_1 = document.getElementById("btn_1");
 var btn_2 = document.getElementById("btn_2");
 
 btn_1.onclick = function () {
-    window.location.href = "/index.php/welcome/Chartinfo";
+    window.location.href = "/index.php/Chartinfo";
 };
 
 btn_2.onclick = function () {
