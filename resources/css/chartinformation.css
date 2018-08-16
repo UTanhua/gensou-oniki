@@ -52,5 +52,9 @@
 
 .main .songlist td{
     text-align: center;
-    border: black 1px solid;
+    border: #dddddd 1px solid;
+}
+
+.main .songlist .status{
+    display: none;
 }

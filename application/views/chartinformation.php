@@ -31,14 +31,19 @@
                     <th class="remark">备注</th>
                 </tr>
                 <?php foreach ($songs as $song_items): ?>
-                    <tr>
+                    <tr onload="fillcolor(this)">
                         <td><?php echo $song_items['songName']; ?></td>
                         <td><?php echo $song_items['classification']; ?></td>
                         <td><?php echo $song_items['difficultyBasic']; ?></td>
+                        <p class="status"><?php echo $song_items['basicState']; ?></p>
                         <td><?php echo $song_items['difficultyNormal']; ?></td>
+                        <p class="status"><?php echo $song_items['normalState']; ?></p>
                         <td><?php echo $song_items['difficultyExpert']; ?></td>
+                        <p class="status"><?php echo $song_items['expertState']; ?></p>
                         <td><?php echo $song_items['difficultyMaster']; ?></td>
+                        <p class="status"><?php echo $song_items['masterState']; ?></p>
                         <td><?php echo $song_items['difficultyWE']; ?></td>
+                        <p class="status"><?php echo $song_items['weState']; ?></p>
                         <td><?php echo $song_items['uploader']; ?></td>
                         <td><?php echo $song_items['remark']; ?></td>
                     </tr>
