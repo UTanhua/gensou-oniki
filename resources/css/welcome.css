@@ -23,6 +23,7 @@ div{
     line-height: 50px;
     color: white;
     background: blueviolet;
+    cursor: pointer;
 }
 
 .main .contain .btn:last-child{
