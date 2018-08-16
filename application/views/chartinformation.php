@@ -42,7 +42,7 @@
                         <td><?php echo $song_items['uploader']; ?></td>
                         <td><?php echo $song_items['remark']; ?></td>
                     </tr>
-                <?php foreach; ?>
+                <?php endforeach; ?>
             </tbody>
         </table>
     </div>
