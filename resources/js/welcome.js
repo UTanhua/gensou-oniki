@@ -1,3 +1,5 @@
+$(document).ready();
+
 $(".btn").mouseenter(function () {
     this.css("opacity","0.86");
 });

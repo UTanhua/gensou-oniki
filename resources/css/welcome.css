@@ -24,3 +24,7 @@ div{
     color: white;
     background: blueviolet;
 }
+
+.main .contain:last-child{
+    background: darkgreen;
+}

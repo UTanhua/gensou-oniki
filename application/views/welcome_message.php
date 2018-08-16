@@ -22,6 +22,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 </div>
 
-<script type="text/javascript" src="<?php echo base_url("resource/js/welcome.js")?>"></script>
+<script type="text/javascript" src="<?php echo base_url("resources/js/welcome.js")?>"></script>
 </body>
 </html>
