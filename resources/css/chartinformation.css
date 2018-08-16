@@ -49,3 +49,8 @@
 .main .songlist .remark{
     width: 528px;
 }
+
+.main .songlist td{
+    text-align: center;
+    border: black 1px solid;
+}
