@@ -14,36 +14,36 @@
     width: 200px;
 }
 .main .songlist .difficultyBasic{
-    width: 55px;
+    width: 65px;
     background: rgb(26,232,24);
     color: white;
     border: none;
 }
 .main .songlist .difficultyNormal{
-    width: 55px;
+    width: 65px;
     background: rgb(233,108,30);
     color: white;
     border: none;
 }
 .main .songlist .difficultyExpert{
-    width: 55px;
+    width: 65px;
     background: rgb(246,10,141);
     color: white;
     border: none;
 }
 .main .songlist .difficultyMaster{
-    width: 55px;
+    width: 65px;
     background: rgb(145,13,244);
     color: white;
     border: none;
 }
 .main .songlist .difficultyWE{
-    width: 165px;
+    width: 195px;
     background: black;
     color: white;
     border: none;
 }
-.main .songlist .upload{
+.main .songlist .uploader{
     width: 150px;
 }
 .main .songlist .remark{

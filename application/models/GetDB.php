@@ -11,4 +11,8 @@ class GetDB extends CI_Model {
     {
         $this->load->database();
     }
+    public function  getSonglist(){
+        $query = $this->db->get('songlist');
+        return $query->result_array();
+    }
 }

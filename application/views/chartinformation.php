@@ -30,6 +30,19 @@
                     <th class="uploader">贡献者</th>
                     <th class="remark">备注</th>
                 </tr>
+                <?php foreach ($songs as $song_items): ?>
+                    <tr>
+                        <td><?php echo $song_items['songName']; ?></td>
+                        <td><?php echo $song_items['classification']; ?></td>
+                        <td><?php echo $song_items['difficultyBasic']; ?></td>
+                        <td><?php echo $song_items['difficultyNormal']; ?></td>
+                        <td><?php echo $song_items['difficultyExpert']; ?></td>
+                        <td><?php echo $song_items['difficultyMaster']; ?></td>
+                        <td><?php echo $song_items['difficultyWE']; ?></td>
+                        <td><?php echo $song_items['uploader']; ?></td>
+                        <td><?php echo $song_items['remark']; ?></td>
+                    </tr>
+                <?php foreach; ?>
             </tbody>
         </table>
     </div>
