@@ -25,6 +25,6 @@ div{
     background: blueviolet;
 }
 
-.main .contain:last-child{
+.main .contain .btn:last-child{
     background: darkgreen;
 }
