@@ -31,7 +31,7 @@
                     <th class="remark">备注</th>
                 </tr>
                 <?php foreach ($songs as $song_items): ?>
-                    <tr onload="fillcolor(this)">
+                    <tr>
                         <td><?php echo $song_items['songName']; ?></td>
                         <td><?php echo $song_items['classification']; ?></td>
                         <td><?php echo $song_items['difficultyBasic']; ?></td>
