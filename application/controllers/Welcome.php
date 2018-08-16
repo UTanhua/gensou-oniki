@@ -23,4 +23,9 @@ class Welcome extends CI_Controller {
 		$this->load->view('welcome_message');
 		$this->load->helper('url');
 	}
+	public function Chartinfo()
+    {
+        $this->load->view('chartinformation');
+        $this->load->helper('url');
+    }
 }
