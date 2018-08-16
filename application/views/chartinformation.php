@@ -35,15 +35,15 @@
                         <td><?php echo $song_items['songName']; ?></td>
                         <td><?php echo $song_items['classification']; ?></td>
                         <td><?php echo $song_items['difficultyBasic']; ?></td>
-                        <p class="status"><?php echo $song_items['basicState']; ?></p>
+                        <span class="status"><?php echo $song_items['basicState']; ?></span>
                         <td><?php echo $song_items['difficultyNormal']; ?></td>
-                        <p class="status"><?php echo $song_items['normalState']; ?></p>
+                        <span class="status"><?php echo $song_items['normalState']; ?></span>
                         <td><?php echo $song_items['difficultyExpert']; ?></td>
-                        <p class="status"><?php echo $song_items['expertState']; ?></p>
+                        <span class="status"><?php echo $song_items['expertState']; ?></span>
                         <td><?php echo $song_items['difficultyMaster']; ?></td>
-                        <p class="status"><?php echo $song_items['masterState']; ?></p>
+                        <span class="status"><?php echo $song_items['masterState']; ?></span>
                         <td><?php echo $song_items['difficultyWE']; ?></td>
-                        <p class="status"><?php echo $song_items['weState']; ?></p>
+                        <span class="status"><?php echo $song_items['weState']; ?></span>
                         <td><?php echo $song_items['uploader']; ?></td>
                         <td><?php echo $song_items['remark']; ?></td>
                     </tr>
