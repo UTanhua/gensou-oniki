@@ -43,11 +43,11 @@
                         <td><?php echo $song_items['difficultyMaster']; ?>
                             <span class="status" onclick="fillcolor(this)"><?php echo $song_items['masterState']; ?></span></td>
                         <td><?php echo $song_items['difficultyWE_1']; ?>
-                            <span class="status onclick="fillcolor(this)""><?php echo $song_items['WE_1State']; ?></span></td>
+                            <span class="status" onclick="fillcolor(this)"><?php echo $song_items['WE_1State']; ?></span></td>
                         <td><?php echo $song_items['difficultyWE_2']; ?>
-                            <span class="status onclick="fillcolor(this)""><?php echo $song_items['WE_2State']; ?></span></td>
+                            <span class="status" onclick="fillcolor(this)"><?php echo $song_items['WE_2State']; ?></span></td>
                         <td><?php echo $song_items['difficultyWE_3']; ?>
-                            <span class="status onclick="fillcolor(this)""><?php echo $song_items['WE_3State']; ?></span></td>
+                            <span class="status" onclick="fillcolor(this)"><?php echo $song_items['WE_3State']; ?></span></td>
                         <td><?php echo $song_items['uploader']; ?></td>
                         <td><?php echo $song_items['remark']; ?></td>
                     </tr>
