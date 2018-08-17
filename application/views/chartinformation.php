@@ -15,7 +15,7 @@
     <script type="text/javascript" src="<?php echo base_url("resources/js/jquery-1.11.0.js")?>"></script>
 </head>
 
-<body>
+<body onload="clickall()">
     <div class="main">
         <table class="songlist" cellspacing="0">
             <tbody>
@@ -33,15 +33,15 @@
                 <?php foreach ($songs as $song_items): ?>
                     <tr>
                         <td><?php echo $song_items['songName']; ?></td>
-                        <td><?php echo $song_items['classification']; ?></td>
+                        <td class="classify" onclick="fillclassfication(this)"><?php echo $song_items['classification']; ?></td>
                         <td><?php echo $song_items['difficultyBasic']; ?>
-                            <span class="status" onload="fillcolor(this)"><?php echo $song_items['basicState']; ?></span></td>
+                            <span class="status" onclick="fillcolor(this)"><?php echo $song_items['basicState']; ?></span></td>
                         <td><?php echo $song_items['difficultyNormal']; ?>
-                            <span class="status" onload="fillcolor(this)"><?php echo $song_items['normalState']; ?></span></td>
+                            <span class="status" onclick="fillcolor(this)"><?php echo $song_items['normalState']; ?></span></td>
                         <td><?php echo $song_items['difficultyExpert']; ?>
-                            <span class="status" onload="fillcolor(this)"><?php echo $song_items['expertState']; ?></span></td>
+                            <span class="status" onclick="fillcolor(this)"><?php echo $song_items['expertState']; ?></span></td>
                         <td><?php echo $song_items['difficultyMaster']; ?>
-                            <span class="status" onload="fillcolor(this)"><?php echo $song_items['masterState']; ?></span></td>
+                            <span class="status" onclick="fillcolor(this)"><?php echo $song_items['masterState']; ?></span></td>
                         <td><?php echo $song_items['difficultyWE']; ?>
                             <span class="status"><?php echo $song_items['weState']; ?></span></td>
                         <td><?php echo $song_items['uploader']; ?></td>
