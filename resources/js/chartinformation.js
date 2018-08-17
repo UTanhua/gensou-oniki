@@ -6,9 +6,7 @@
     3 = offset待修正   (黄色)
     4 = 有错误         (红色)
  */
-
 function fillcolor(status) {
-    // alert($(status).text());
     switch ($(status).text()){
         case "0" :
             $(status).parent().css("background","white");
@@ -27,7 +25,7 @@ function fillcolor(status) {
             break;
 
         case "4" :
-            $(status).parent().css({"background":"red","border":"none"});
+            $(status).parent().css({"background":"rgb(255,199,206)","color":"rgb(156,0,6)","border":"none"});
             break;
 
     }
@@ -42,7 +40,6 @@ function fillcolor(status) {
     言ノ葉Project = rgb(191,158,24)
     VARIETY      = rgb(18,144,106)
  */
-
 function fillclassfication(text) {
     switch ($(text).text()){
         case "POPS & ANIME" :

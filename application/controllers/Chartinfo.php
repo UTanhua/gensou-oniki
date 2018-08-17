@@ -17,8 +17,8 @@ class Chartinfo extends CI_Controller{
         $this->load->helper('url_helper');
     }
 
-    public function index(){
-
+    public function index()
+    {
         $data['songs'] = $this->GetDB->getSonglist();
 
         $this->load->view('chartinformation',$data);
