@@ -26,7 +26,7 @@
                     <th class="difficultyNormal">NORMAL</th>
                     <th class="difficultyExpert">EXPERT</th>
                     <th class="difficultyMaster">MASTER</th>
-                    <th class="difficultyWE">WORLD's END</th>
+                    <th class="difficultyWE" colspan="3">WORLD's END</th>
                     <th class="uploader">贡献者</th>
                     <th class="remark">备注</th>
                 </tr>
@@ -42,8 +42,12 @@
                             <span class="status" onclick="fillcolor(this)"><?php echo $song_items['expertState']; ?></span></td>
                         <td><?php echo $song_items['difficultyMaster']; ?>
                             <span class="status" onclick="fillcolor(this)"><?php echo $song_items['masterState']; ?></span></td>
-                        <td><?php echo $song_items['difficultyWE']; ?>
-                            <span class="status"><?php echo $song_items['weState']; ?></span></td>
+                        <td><?php echo $song_items['difficultyWE_1']; ?>
+                            <span class="status onclick="fillcolor(this)""><?php echo $song_items['WE_1State']; ?></span></td>
+                        <td><?php echo $song_items['difficultyWE_2']; ?>
+                            <span class="status onclick="fillcolor(this)""><?php echo $song_items['WE_2State']; ?></span></td>
+                        <td><?php echo $song_items['difficultyWE_3']; ?>
+                            <span class="status onclick="fillcolor(this)""><?php echo $song_items['WE_3State']; ?></span></td>
                         <td><?php echo $song_items['uploader']; ?></td>
                         <td><?php echo $song_items['remark']; ?></td>
                     </tr>
