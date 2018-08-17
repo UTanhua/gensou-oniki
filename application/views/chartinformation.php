@@ -34,16 +34,16 @@
                     <tr>
                         <td><?php echo $song_items['songName']; ?></td>
                         <td><?php echo $song_items['classification']; ?></td>
-                        <td><?php echo $song_items['difficultyBasic']; ?></td>
-                        <span class="status"><?php echo $song_items['basicState']; ?></span>
-                        <td><?php echo $song_items['difficultyNormal']; ?></td>
-                        <span class="status"><?php echo $song_items['normalState']; ?></span>
-                        <td><?php echo $song_items['difficultyExpert']; ?></td>
-                        <span class="status"><?php echo $song_items['expertState']; ?></span>
-                        <td><?php echo $song_items['difficultyMaster']; ?></td>
-                        <span class="status"><?php echo $song_items['masterState']; ?></span>
-                        <td><?php echo $song_items['difficultyWE']; ?></td>
-                        <span class="status"><?php echo $song_items['weState']; ?></span>
+                        <td><?php echo $song_items['difficultyBasic']; ?>
+                            <span class="status" onload="fillcolor(this)"><?php echo $song_items['basicState']; ?></span></td>
+                        <td><?php echo $song_items['difficultyNormal']; ?>
+                            <span class="status" onload="fillcolor(this)"><?php echo $song_items['normalState']; ?></span></td>
+                        <td><?php echo $song_items['difficultyExpert']; ?>
+                            <span class="status" onload="fillcolor(this)"><?php echo $song_items['expertState']; ?></span></td>
+                        <td><?php echo $song_items['difficultyMaster']; ?>
+                            <span class="status" onload="fillcolor(this)"><?php echo $song_items['masterState']; ?></span></td>
+                        <td><?php echo $song_items['difficultyWE']; ?>
+                            <span class="status"><?php echo $song_items['weState']; ?></span></td>
                         <td><?php echo $song_items['uploader']; ?></td>
                         <td><?php echo $song_items['remark']; ?></td>
                     </tr>
