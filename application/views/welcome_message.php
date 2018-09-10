@@ -29,7 +29,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script type="text/javascript" src="<?php echo base_url("resources/live2d/js/live2d.js")?>"></script>
     <script type="text/javascript" src="<?php echo base_url("resources/js/welcome.js")?>"></script>
     <script type="text/javascript">
-        loadlive2d("live2d", "resources/live2d/model/rfb/model.json");
+        loadlive2d("live2d", "<?php echo base_url("resources/live2d/model/rfb/model.json")?>");
     </script>
 </body>
 </html>
