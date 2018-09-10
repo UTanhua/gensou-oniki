@@ -4,7 +4,8 @@
 
 	1).手机端响应式设计;
 	2).数据库add,update,delete;
-	3).想到了再加;
+	3).播放器啦;
+	4).想到了再加;
 
 
 difficultyState 设定
