@@ -1,0 +1,45 @@
+*{
+    margin: 0 auto;
+}
+
+.headbar{
+    width: 100%;
+    height: 45px;
+    background: #555555;
+    opacity: 0.95;
+}
+
+.headbar .container{
+    width: 95%;
+}
+
+.headbar .container .logo{
+    float: left;
+    width: 240px;
+    color: #00CC00;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.headbar .container .personinfo{
+    float: right;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.headbar .container .personinfo ul{
+    list-style: none;
+}
+
+.headbar .container .personinfo li{
+    float: right;
+    color: white;
+    width: 80px;
+    height: 45px;
+    text-align: center;
+}
+
+.headbar .container .personinfo li:hover{
+    cursor: pointer;
+    background: #333333;
+}

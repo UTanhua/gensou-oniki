@@ -6,11 +6,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta charset="utf-8">
 	<title>Gensou-Oniki</title>
     <base href="<?=base_url();?>" />
+    <link rel="stylesheet" href="<?php echo base_url("resources/css/headbar.css")?>" />
     <link rel="stylesheet" href="<?php echo base_url("resources/css/welcome.css")?>" />
     <link rel="stylesheet" href="<?php echo base_url("resources/live2d/css/live2d.css")?>" />
     <script type="text/javascript" src="<?php echo base_url("resources/js/jquery-1.11.0.js")?>"></script>
 </head>
 <body>
+<!--  HEAD start  -->
+    <div class="headbar">
+        <div class="container">
+            <div class="logo">Qunithm</div>
+            <div class="personinfo">
+                <ul>
+                    <li class="login">登陆</li>
+                    <li class="register">注册</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!--  HEAD end  -->
+
     <div class="main">
         <div class="titleImg">
             <img src="<?php echo base_url("resources/img/bg.jpg")?>"/>
@@ -21,10 +36,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="btn" id="btn_2">谱面保管所</div>
         </div>
     </div>
-<!--  Live2D  -->
+
+<!--  Live2D start  -->
     <div id="landlord">
         <canvas id="live2d" width="280" height="400" class="live2d"></canvas>
     </div>
+<!--  Live2D end  -->
 
     <script type="text/javascript" src="<?php echo base_url("resources/live2d/js/live2d.js")?>"></script>
     <script type="text/javascript" src="<?php echo base_url("resources/js/welcome.js")?>"></script>
