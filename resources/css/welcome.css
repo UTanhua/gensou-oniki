@@ -12,6 +12,8 @@ div{
 }
 
 .main .titleImg img{
+    position: absolute;
+    z-index: -1;
     width: 100%;
     opacity: 0.4;
 }
