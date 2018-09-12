@@ -25,3 +25,24 @@ btn_2.onclick = function () {
     window.location.href = "http://www.sdvx.in/chunithm.html";
 };
 
+function playsound() {
+    var rand= Math.floor(Math.random()*(4-1+1)+1);
+    switch (rand) {
+        case 1:
+            var sound=document.getElementById("sound_00");
+            break;
+        case 2:
+            var sound=document.getElementById("sound_01");
+            break;
+        case 3:
+            var sound=document.getElementById("sound_02");
+            break;
+        case 4:
+            var sound=document.getElementById("sound_03");
+            break;
+        default :
+            var sound=document.getElementById("sound_01");
+            break;
+    }
+    sound.play();
+}

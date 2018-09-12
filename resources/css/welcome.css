@@ -20,6 +20,10 @@ div{
     opacity: 0.4;
 }
 
+.main .contain{
+    margin-top: 500px;
+}
+
 .main .contain p{
     text-align: center;
     font-size: 40px;

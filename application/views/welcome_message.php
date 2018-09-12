@@ -39,7 +39,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!--  Live2D start  -->
     <div id="landlord">
-        <canvas id="live2d" width="280" height="400" class="live2d"></canvas>
+        <canvas id="live2d" width="280" height="400" class="live2d" onclick="playsound()"></canvas>
+    </div>
+    <div>
+        <audio id="sound_00" src="<?php echo base_url("resources/live2d/model/rfb/sound/00.mp3")?>" controls="controls" hidden="true"></audio>
+        <audio id="sound_01" src="<?php echo base_url("resources/live2d/model/rfb/sound/01.mp3")?>" controls="controls" hidden="true"></audio>
+        <audio id="sound_02" src="<?php echo base_url("resources/live2d/model/rfb/sound/02.mp3")?>" controls="controls" hidden="true"></audio>
+        <audio id="sound_03" src="<?php echo base_url("resources/live2d/model/rfb/sound/03.mp3")?>" controls="controls" hidden="true"></audio>
     </div>
 <!--  Live2D end  -->
 
